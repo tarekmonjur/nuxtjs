@@ -1,0 +1,10 @@
+node_modules
+*.log*
+.nuxt
+.output
+.nitro
+.cache
+dist
+.vscode
+.env
+.eslintignore
