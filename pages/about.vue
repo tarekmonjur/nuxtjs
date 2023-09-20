@@ -1,9 +1,15 @@
 <script setup lang="ts">
-// definePageMeta({
-//   pageTransition: {
-//     name: 'rotate'
-//   }
-// })
+useHead({
+  titleTemplate: (title) => {
+    return title ? `${title} - About` : 'About Page' 
+  }
+});
+
+useSeoMeta({
+  ogTitle: 'Client Site About',
+  description: 'This is my site, let me tell you all about it.',
+  ogDescription: 'This is my site, let me tell you all about it.',
+});
 </script>
 
 <template>

@@ -3,13 +3,16 @@
         <header class="shadow-sm bg-white dark:bg-gray-900 dark:text-gray-100">
             <nav class="container mx-auto p-4 flex justify-between">
                 <NuxtLink class="text-2xl text-black dark:text-white" to="/">Client Record</NuxtLink>
-                <NuxtLink class="text-xl" to="/dashboard">Go to Dashboard</NuxtLink>
+                <NuxtLink class="text-xl" to="/dashboard">My Dashboard</NuxtLink>
                 <ul class="flex gap-4 text-lg">
                     <li>
                         <NuxtLink to="/">Home</NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="/about">About</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/gallary">Gallary</NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="/singup">SignUp</NuxtLink>
@@ -31,7 +34,13 @@
                     <NuxtLink to="/about">About</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/customers">Customers</NuxtLink>
+                    <NuxtLink to="/gallary">Gallary</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink to="/clients">Clients</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink to="/car">Car APP</NuxtLink>
                 </li>
             </ul>
         </footer>

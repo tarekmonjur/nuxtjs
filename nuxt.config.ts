@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    ssr: true,
+    routeRules: {
+    },
     devtools: {
         enabled: false,
     },
@@ -12,6 +15,7 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
+            title: 'Client APP',
             htmlAttrs: {
                 class: 'h-full bg-gray-100',
             },
@@ -33,4 +37,8 @@ export default defineNuxtConfig({
     colorMode: {
         classSuffix: '',
     },
+    devServer: {
+        port: 3007
+    },
+    
 })

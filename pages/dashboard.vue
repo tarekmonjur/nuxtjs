@@ -1,26 +1,17 @@
 <script setup lang="ts">
 definePageMeta({
-    layout: false,
+    layout: 'dashboard',
 })
 const routeName = useRoute().name
 </script>
 
 <template>
-    <div>
-        <NuxtLayout name="dashboard">
-            <template #header>
-                <header class="bg-white shadow">
-                    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                        <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ routeName }}</h1>
-                    </div>
-                </header>
-            </template>
-
-            <template #main>
-                <section>Hello</section>
-            </template>
-        </NuxtLayout>
-    </div>
+    <section id="main">
+        <h2>Dashboard</h2>
+        <p>Meta: {{ routeName }}</p>
+    </section>
 </template>
+
+
 
 <style lang="stylus" scoped></style>

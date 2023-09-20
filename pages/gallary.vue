@@ -1,27 +1,20 @@
 <script setup lang="ts">
-// definePageMeta({
-//   pageTransition: {
-//     name: 'rotate'
-//   }
-// });
-
 useHead({
   titleTemplate: (title) => {
-    return title ? `${title} - Home` : 'Home Page' 
+    return title ? `${title} - About` : 'About Page' 
   }
 });
 
-useServerSeoMeta({
-  ogTitle: 'Client Site Home',
+useSeoMeta({
+  ogTitle: 'Client Site Gallary',
   description: 'This is my site, let me tell you all about it.',
   ogDescription: 'This is my site, let me tell you all about it.',
 });
-
 </script>
 
 <template>
     <div>
-        <h2>Home page</h2>
+        <h2>Gallary page</h2>
         <p>
             The app.config.ts file, located in the source directory (by default the root of the project), is used to
             expose public variables that can be determined at build time. Contrary to the runtimeConfig option, these
