@@ -12,7 +12,6 @@ const routeName: string = capitalized((useRoute().name || '') as string)
 
 <template>
     <div class="min-h-full">
-        
         <DashboardNav></DashboardNav>
         <slot name="header" />
 

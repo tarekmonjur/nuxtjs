@@ -13,25 +13,25 @@
                             <NuxtLink
                                 to="http://localhost:3000/dashboard"
                                 class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
-                                >
+                            >
                                 Dashboard
                             </NuxtLink>
                             <NuxtLink
                                 to="clients"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                                >
+                            >
                                 Clients
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                                >
+                            >
                                 Projects
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                                >
+                            >
                                 Reports
                             </NuxtLink>
                         </div>
@@ -253,13 +253,9 @@
         </div>
     </nav>
 </template>
-  
+
 <script lang="ts" setup>
 const dropdown = ref(false)
 </script>
-  
-  
-  
-<style>
 
-</style>
+<style></style>

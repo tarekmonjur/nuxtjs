@@ -1,8 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     ssr: true,
-    routeRules: {
-    },
+    routeRules: {},
     devtools: {
         enabled: false,
     },
@@ -38,7 +37,6 @@ export default defineNuxtConfig({
         classSuffix: '',
     },
     devServer: {
-        port: 3007
+        port: 3007,
     },
-    
 })
